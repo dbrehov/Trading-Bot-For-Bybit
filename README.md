@@ -9,3 +9,15 @@ deactivate
 pip freeze > requirements.txt
 
 pip install -r requirements.txt
+
+
+conda install matplotlib 
+
+conda install pybit 
+
+conda activate myenv
+
+conda install -c conda-forge ta-lib 
+
+conda create --name myenv
+
