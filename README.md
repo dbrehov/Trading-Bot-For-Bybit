@@ -4,20 +4,27 @@ python3 -m venv env
 
 source env/bin/activate
 
-deactivate
+pip install matplotlib 
 
-pip freeze > requirements.txt
+pip install pybit 
 
-pip install -r requirements.txt
+# deactivate
 
+# pip freeze > requirements.txt
+
+# pip install -r requirements.txt
+
+conda create --name myenv
+
+conda activate myenv
+
+conda deactivate
+
+conda install -c conda-forge ta-lib 
 
 conda install matplotlib 
 
 conda install pybit 
 
-conda activate myenv
 
-conda install -c conda-forge ta-lib 
-
-conda create --name myenv
 
